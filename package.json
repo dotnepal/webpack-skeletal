@@ -1,7 +1,7 @@
 {
-  "name": "DateKeeper",
+  "name": "webpack-skeletal",
   "version": "1.0.0",
-  "description": "Test Repository",
+  "description": "A skeletal to work with Webpack, Typescript, Bootstrap, jQuery",
   "main": "gulpfile.js",
   "author": "Samundra Shrestha<samundra.shr@gmail.com>",
   "license": "MIT",
@@ -20,13 +20,13 @@
     "typescript": "^2.4.1",
     "url-loader": "^0.5.9",
     "webpack": "^3.4.1"
-  },
-  "dependencies": {
-    "bootstrap": "^3.3.7",
-    "jquery": "^3.2.1"
-  },
-  "scripts": {
-    "webpack": "node_modules/.bin/webpack",
-    "cleanup": "./cleanup.sh"
-  }
+    },
+    "dependencies": {
+      "bootstrap": "^3.3.7",
+      "jquery": "^3.2.1"
+    },
+    "scripts": {
+      "webpack": "node_modules/.bin/webpack",
+      "cleanup": "./cleanup.sh"
+    }
 }
