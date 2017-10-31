@@ -27,6 +27,8 @@
   },
   "scripts": {
     "webpack": "node_modules/.bin/webpack",
-    "cleanup": "./cleanup.sh"
+    "cleanup": "./cleanup.sh",
+    "watch": "node_modules/.bin/webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
